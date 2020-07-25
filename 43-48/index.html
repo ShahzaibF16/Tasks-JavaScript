@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Task-1 -->
+    <a onclick="taskOne()" href="#">Click it</a>
+
+
+    <!-- Task-2 -->
+    <div>
+        <img onclick="taskTwo()" width="200" height="250" src="images/iphone.png" alt="">
+        <img onclick="taskTwo()" width="200" height="250" src="images/2.jpg" alt="">
+        <img onclick="taskTwo()" width="200" height="250" src="images/p30.png" alt="">
+        <img onclick="taskTwo()" width="200" height="250" src="images/s10.png" alt="">
+    </div>
+
+
+    <!-- Task-3 -->
+
+    <br>
+    <div style="display: flexbox;;">
+        <span>Classes of indices name</span>
+        <table align="center">
+            <tr>
+                <td id="0"></td>
+                <td id="0name"></td>
+                <td><span style="background-color: lightgray; text-decoration: underline;  cursor: pointer;"
+                        onclick="deleteFirstList()" id="0btn">Delete</span
+                        style="background-color:goldenrod; cursor: pointer;">
+                </td>
+            </tr>
+            <tr>
+                <td id="1"></td>
+                <td id="1name"></td>
+                <td>
+                    <span style="background-color: lightgray; text-decoration: underline; cursor: pointer;"
+                        onclick="deleteSecondList()" id="1btn">
+                        Delete
+                    </span style="background-color:goldenrod; cursor: pointer;">
+                </td>
+            </tr>
+            <tr>
+                <td id="2"></td>
+                <td id="2name"></td>
+                <td>
+                    <span style="background-color: lightgray;  cursor: pointer;" onclick="deleteThirdList()" id="2btn">
+                        Delete
+                    </span style="background-color:goldenrod; cursor: pointer;">
+                </td>
+            </tr>
+            <tr>
+                <td id="3"></td>
+                <td id="3name"></td>
+                <td>
+                    <span style=" cursor: pointer;" onclick="deleteFourthList()" id="3btn">Delete</span
+                        style="background-color:goldenrod; cursor: pointer;">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <!-- Task#3 -->
+
+    <!-- Task-4 -->
+
+    <img width="230" height="250" id="img" src="images/iphone.png" alt="" onmouseover="swapPic()"
+        onmouseout="swapPic2()">
+
+
+
+    <!-- Task-5 -->
+
+    <!--  Task#5  -->
+    <div>
+        <div style="font-size: 10em;" id="counter">0</div style="font-size: 30px;">
+        <button id="increment" onclick="countpp()">
+            Increment
+        </button>
+       
+        <button id="decrement" onclick="countmm()">
+            Decrement
+        </button>
+    </div>
+    
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
